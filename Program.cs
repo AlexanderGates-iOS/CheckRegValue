@@ -6,8 +6,8 @@ internal class CheckRegValue
 {
     private static void Main()
     {
-        const string registryPath = @"SOFTWARE\...<registry path here>";
-        const string valueName = "<The Registry Key>";
+        const string registryPath = @"SOFTWARE\...<registry path here>"; //change the path to the key you need to check
+        const string valueName = "<The Registry Key>"; //put the key here
 
         while (true)
         {
