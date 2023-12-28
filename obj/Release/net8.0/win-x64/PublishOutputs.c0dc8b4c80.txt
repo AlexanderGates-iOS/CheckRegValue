@@ -1,0 +1,2 @@
+/Users/alexandergates/Projects/CheckRegValue/CheckRegValue/CheckRegValue/publish/CheckRegValue.pdb
+/Users/alexandergates/Projects/CheckRegValue/CheckRegValue/CheckRegValue/publish/CheckRegValue.exe
