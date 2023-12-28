@@ -6,8 +6,8 @@ internal class CheckRegValue
 {
     private static void Main()
     {
-        const string registryPath = @"SOFTWARE\WOW6432Node\WRData\Status";
-        const string valueName = "ActiveScans";
+        const string registryPath = @"SOFTWARE\...<registry path here>";
+        const string valueName = "<The Registry Key>";
 
         while (true)
         {
@@ -25,12 +25,12 @@ internal class CheckRegValue
                         // Check the value
                         if (intValue == 0)
                         {
-                            Console.WriteLine("Value is 0, not scanning.");
+                            Console.WriteLine("Value is 0");
                             break; // Exit the loop to move to the next step
                         }
                         else if (intValue == 1)
                         {
-                            Console.WriteLine("Value is 1, scanning...");
+                            Console.WriteLine("Value is 1");
                             // Wait for some time before rechecking
                             Thread.Sleep(1000); // Wait for 1 second
                         }
